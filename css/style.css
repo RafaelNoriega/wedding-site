@@ -1784,47 +1784,47 @@ h3 {
 
 /* line 37, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_1 {
-  background-image: url(../img/gallery/6.JPG);
+  background-image: url(../img/gallery/compressed/6.JPG);
 }
 
 /* line 40, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_2 {
-  background-image: url(../img/gallery/3.JPG);
+  background-image: url(../img/gallery/compressed/3.JPG);
 }
 
 /* line 43, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_3 {
-  background-image: url(../img/gallery/2.JPG);
+  background-image: url(../img/gallery/compressed/2.JPG);
 }
 
 /* line 46, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_4 {
-  background-image: url(../img/gallery/7.JPG);
+  background-image: url(../img/gallery/compressed/7.JPG);
 }
 
 /* line 49, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_5 {
-  background-image: url(../img/gallery/5.JPG);
+  background-image: url(../img/gallery/compressed/5.JPG);
 }
 
 /* line 52, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_6 {
-  background-image: url(../img/gallery/1.JPG);
+  background-image: url(../img/gallery/compressed/1.JPG);
 }
 
 /* line 55, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_7 {
-  background-image: url(../img/gallery/4.JPG);
+  background-image: url(../img/gallery/compressed/4.JPG);
 }
 
 /* line 58, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_8 {
-  background-image: url(../img/gallery/8.JPG);
+  background-image: url(../img/gallery/compressed/8.JPG);
 }
 
 /* line 61, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
 .gallery_imag_9 {
-  background-image: url(../img/gallery/9.JPG);
+  background-image: url(../img/gallery/compressed/9.JPG);
 }
 
 /* line 65, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_gallery.scss */
@@ -1960,6 +1960,10 @@ h3 {
   }
 }
 
+.location_area .location_info .location_inner .address_info .single_address {
+  padding: 0px 10px 20px;
+}
+
 /* line 59, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
 .location_area .location_info .location_inner .address_info .single_address h4 {
   color: #C78665;
@@ -1979,7 +1983,7 @@ h3 {
 
 .location_area .location_info .location_inner .address_info .single_address a{
   color: #727272;
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Muli", sans-serif;
   font-weight: 400;
   line-height: 26px;
@@ -5293,6 +5297,18 @@ h6 {
 .blog_part .single-home-blog .card ul li span {
   margin-right: 10px;
   font-size: 12px;
+}
+
+@media only screen and (min-width:300px) {
+  .form-checkbox {
+    width: 10% !important
+  }
+}
+
+@media only screen and (min-width:800px) {
+  .form-checkbox {
+    width: 5% !important
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
